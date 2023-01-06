@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    margin-top: 0px;
+    background-image: url("../images/banner/banner2.png");
+}
+
+.header-contant {
+    text-align: right;
+    padding: 100px 250px 100px 50%;
+    align-items: center;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+
+.head-description {
+    color: #444343;
+    margin-bottom: 50px;
+}
+
+.primary-btn {
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    padding: 18px 36px;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+.about-me {
+    margin: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-description {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.my-plan {
+    text-align: center;
+    margin: 100px 200px;
+}
+
+.plan-boxs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.gradient{
+    margin: 100px 250px;
+    background-image: url(../images/gradient2.png),url(../images/watch.png);
+    padding: 40px;
+    border-radius: 8px;
+}
+.dialog-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffff;
+}
+.secodary-btn{
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    border: 0;
+    padding: 18px 36px;
+    background: #fff;
+    border-radius: 5px;
+
+}
