@@ -52,9 +52,11 @@ header {
     font-size: 40px;
 }
 
-h6 {
+h6,
+.future-description {
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .my-plan {
@@ -72,18 +74,21 @@ h6 {
     font-size: 30px;
     color: #151414;
 }
-.gradient{
+
+.gradient {
     margin: 100px 250px;
-    background-image: url(../images/gradient2.png),url(../images/watch.png);
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
     padding: 40px;
     border-radius: 8px;
 }
+
 .dialog-title {
     font-weight: 700;
     font-size: 40px;
     color: #ffff;
 }
-.secodary-btn{
+
+.secodary-btn {
     height: 64px;
     font-weight: 700;
     font-size: 20px;
@@ -93,4 +98,80 @@ h6 {
     background: #fff;
     border-radius: 5px;
 
+}
+
+
+.resume-headline {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    margin: 130px 150px;
+    gap: 24px;
+}
+
+.edu-timeline,
+.exp-timeline {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.edu-title,
+.exp-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.edu-sub-title,
+.exp-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.edu-drescription,
+.exp-drescription {
+    color: #757575;
+}
+
+.education-item,
+.expriance-item {
+    margin: 30px 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    background-color: #151414;
+    color: #fff;
+}
+
+.future {
+    width: 40%;
+}
+
+.future>img {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+#form-box{
+    height: auto;
+    width: 100%;
+    padding: 18px 30px;
+    background-color: #151414;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
